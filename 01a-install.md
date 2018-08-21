@@ -59,7 +59,7 @@ In the Terminal:
 
 `python3 --version`
 
->> Python 3.6.6 :: Anaconda custom (64-bit)
+>> Python 3.6.6 :: Anaconda custom (64-bit)  
 
  
 
