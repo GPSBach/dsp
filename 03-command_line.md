@@ -64,7 +64,7 @@ What does `xargs` do? Give an example of how to use it.
 
 >> xargs executes other bash commands.  This may seem like its not especially useful, but it can actually be quite powerful, allowing one to, for example, loop a bash command over multiple inputs in a single line.  
 >> for example, if I wanted to make 3 new directories in a single command, I could use:  
->> `echo 'data analysis results' | xargs mkdir  
+>> `echo 'data analysis results' | xargs mkdir`
 >> `ls`  
 >> `data analysis results`
 
