@@ -35,7 +35,7 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
->> `ls`  - list files and folders in current directory
+>> `ls`  - list files and folders in current directory  
 >> `ls -a` - list all files and folders in current directory including hidden
 >> `ls -l` - detailed list view including user permissions, dates, and sizes
 >> `ls -lh` - as above with files sizes in human readable format
