@@ -36,12 +36,12 @@ What do the following commands do:
 `ls -Glp`  
 
 >> `ls`  - list files and folders in current directory  
->> `ls -a` - list all files and folders in current directory including hidden
->> `ls -l` - detailed list view including user permissions, dates, and sizes
->> `ls -lh` - as above with files sizes in human readable format
->> `ls -lah`  - as above with hidden files
->> `ls -t` - sorts files by date modified
->> `ls -Glp` - list form, long format, with backslash following directories
+>> `ls -a` - list all files and folders in current directory including hidden  
+>> `ls -l` - detailed list view including user permissions, dates, and sizes  
+>> `ls -lh` - as above with files sizes in human readable format  
+>> `ls -lah`  - as above with hidden files  
+>> `ls -t` - sorts files by date modified  
+>> `ls -Glp` - list form, long format, with backslash following directories  
 
 
 ---
@@ -50,11 +50,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
->> `ls -lahS` - list all files sorted by file size
->> `ls -lal` - list all files and evaluate symbolic links
->> `ls -laut` - list by last access time instead of last modification time
->> `ls -laR` - list recursively
->> `ls -lAT` - list detailed time info
+>> `ls -lahS` - list all files sorted by file size  
+>> `ls -lal` - list all files and evaluate symbolic links  
+>> `ls -laut` - list by last access time instead of last modification time  
+>> `ls -laR` - list recursively  
+>> `ls -lAT` - list detailed time info  
 
 ---
 
@@ -62,7 +62,11 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
->> xargs executes other bash commands.  This may seem like its not especially useful, but it can actually be quite powerful, allowing one to, for example, loop a bash command over multiple inputs in a single line.
+>> xargs executes other bash commands.  This may seem like its not especially useful, but it can actually be quite powerful, allowing one to, for example, loop a bash command over multiple inputs in a single line.  
+>> for example, if I wanted to make 3 new directories in a single command, I could use:  
+>> `echo 'data analysis results' | xargs mkdir  
+>> `ls`  
+>> `data analysis results`
 
 
  
